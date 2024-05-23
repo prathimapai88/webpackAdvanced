@@ -1,3 +1,8 @@
-import { helloWorld } from "./hello";
+import { helloWorld } from './hello';
+import addImage from './addImage';
+import HelloWorld from './component/Helloworld';
 
-helloWorld();
+
+addImage();
+const helloWorldObj= new HelloWorld();
+helloWorldObj.render();
